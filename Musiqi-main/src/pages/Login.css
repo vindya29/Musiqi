@@ -1,0 +1,93 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('https://images.discerningassets.com/image/upload/c_fit,h_1000,w_1000/c_fit,fl_relative,h_1.0,o_100,w_1.0/v1629210044/Bob_Marley_2_owdhre.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .logo {
+    width: 100px; /* Adjust the width as per your requirement */
+    height: auto;
+    opacity: 0.1; /* Adjust the opacity as needed */
+    margin-bottom: 50px; /* Adjust the margin as needed */
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.5);  /* Increased transparency */
+    color: white;  /* Text color to white for better contrast */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .login-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 5em; /* Increase font size for bigger heading */
+    color: blue; /* Set color to pink */
+  }
+  
+  .login-form label {
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: 16px;
+    color: pink;
+  }
+  
+  .login-form input {
+    margin: 8px 0px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    font-size: 16px;
+  }
+  
+  .login-form input:focus {
+    outline: none;
+    border-color: orange;
+  }
+  
+  .login-form button {
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #1ada6d;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-form button:hover {
+    background-color: #333;
+  }
+  
+  .success-msg,
+  .error-msg {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .success-msg {
+    background-color: #4CAF50;
+  }
+  
+  .error-msg {
+    background-color: #F44336;
+  }
+  
