@@ -1,0 +1,102 @@
+/* Signup.css */
+
+/* Container for the signup form */
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('https://shop.vakseenart.com/cdn/shop/products/2276346D-84E7-4DEB-83BA-112575E069D8_800x.jpg?v=1646859673'); /* Example image URL */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Signup form */
+  .signup-form {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+    padding: 20px;
+    border-radius: 10px;
+    color: white; /* Text color to white for better contrast */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    width: 350px;
+  }
+  
+  /* Title of the signup form */
+  .signup-form p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ff80ab; /* Slight baby pink */
+  }
+  
+  /* Success and error message sections */
+  .success-msg, .error-msg {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* Message text style */
+  .success-msg h3, .error-msg h3 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* Input fields for username, email, password, etc. */
+  input[type='text'],
+  input[type='tel'],
+  input[type='email'],
+  input[type='password'],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3); /* White border with slight transparency */
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.1); /* Slightly transparent background for inputs */
+    color: white; /* Text color to white for better contrast within inputs */
+  }
+  
+  /* Signup button */
+  button {
+    width: 100%;
+    background-color: #3a86ff; /* Blue button color */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect on the signup button */
+  button:hover {
+    background-color: #0056b3; /* Darker shade of blue button color on hover */
+  }
+  
+  /* Section for the "Already have an account?" message and login link */
+  .signup-form div {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  /* Text style for the "Already have an account?" message */
+  .signup-form div span {
+    margin-right: 5px;
+  }
+  
+  /* Link style for the login link */
+  .signup-form div a {
+    color: #4e86e4; /* Slight baby blue */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Apply Google Font (optional) */
+  body {
+    font-family: Reddit, monospace;
+  }
+  

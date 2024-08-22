@@ -1,0 +1,39 @@
+/* Import base, components, and utilities from Tailwind CSS */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Active Navigation Link */
+.active {
+  /* Apply Tailwind class directly */
+  @apply text-cyan-500;
+}
+
+.active svg {
+  /* Apply Tailwind class directly */
+  @apply text-cyan-500;
+}
+
+/* Animation Delay for Bars */
+.bar:nth-child(n + 2) {
+  animation-delay: calc((0.2s * (n - 1)));
+}
+
+.smooth-transition {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hide scrollbar for Chrome, Safari, and Opera */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+.hide-scrollbar {
+  scrollbar-width: none;
+}
+
+/* Hide scrollbar for IE and Edge */
+.hide-scrollbar {
+  -ms-overflow-style: none;
+}
