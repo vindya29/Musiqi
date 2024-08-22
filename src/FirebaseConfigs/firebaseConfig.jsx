@@ -6,7 +6,7 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD-VQguOyPHabeUe8gndu5vsX2BMXi6GR4",
+  apiKey: "",
   authDomain: "musiqi11.firebaseapp.com",
   projectId: "musiqi11",
   storageBucket: "musiqi11.appspot.com",
