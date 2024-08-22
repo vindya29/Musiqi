@@ -6,11 +6,12 @@ An reactive web music player created as part of CSE6324's final project.
 
 ## Authors
 
+- [Vindya Maraliga Venkatesh](https://github.com/Vindya29)
 - [Sai Krishna Movva Jaya](https://www.github.com/SKrishnaMJ)
 - [Suraj Kalyampudi](https://www.github.com/SurajKalyampud)
 - [Karan Vasudevamurthy](https://github.com/karanlvm)
 - [Ritika Ghanti](https://github.com/ritikaghanti)
-- [Vindya Maraliga Venkatesh](https://github.com/Vindya29)
+
 
 
 ## Installation
